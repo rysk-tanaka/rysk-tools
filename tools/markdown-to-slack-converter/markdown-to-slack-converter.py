@@ -16,7 +16,6 @@ def convert_markdown_to_slack(input_file, output_dir):
     # ファイルを読み込む
     with open(input_file, "r", encoding="utf-8") as file:
         markdown_content = file.read()
-        print(markdown_content)
 
     # Markdown をパースし、Slack記法に変換する
     parser = commonmarkslack.Parser()
