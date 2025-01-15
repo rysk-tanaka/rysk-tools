@@ -1,6 +1,6 @@
 [project]
 name = "rysk-tools"
-version = "0.0.1"
+version = "0.0.2"
 
 [tool.black]
 line-length = 100
